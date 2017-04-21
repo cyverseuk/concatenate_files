@@ -1,0 +1,9 @@
+{
+  "name" : "concatenate_files",
+  "appId" : "concatenate_files-0.0.0",
+  "archive" : false,
+  "inputs": {
+    "files" : ["http://de.cyverse.org/dl/d/F467984A-878F-4F66-BAE8-E16862BBBE89/1.fastq",
+    "http://de.cyverse.org/dl/d/7E4B087B-E5C8-40CD-9365-FA4950B5EF18/2.fastq"]
+  }
+}
