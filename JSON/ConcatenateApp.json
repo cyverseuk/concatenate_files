@@ -1,0 +1,35 @@
+{
+  "name": "concatenate_files",
+  "label": "Concatenate multiple files",
+  "shortDescription": "application to concatenate multiple files",
+  "longDescription": "",
+  "helpURI": "https://github.com/cyverseuk/concatenate_files/tree/master",
+  "datePublished": "",
+  "author":"Alice Minotto",
+  "version": "0.0.0",
+  "deploymentSystem": "cyverseUK-Storage2",
+  "deploymentPath": "/mnt/data/apps/concatenate_files",
+  "executionSystem": "cyverseUK-Batch2",
+  "executionType": "CLI",
+  "parallelism": "SERIAL",
+  "templatePath": "wrapper.sh",
+  "testPath": "test.sh",
+  "ontology": [ "http://edamontology.org/operation_3436",
+  "http://edamontology.org/operation_3096",
+  "http://edamontology.org/topic_0218",
+  "http://edamontology.org/topic_3071"],
+  "tags": [ "CyverseUK" ],
+  "inputs": [
+    {"id": "files",
+    "value": {
+      "required": true,
+      "default": ""
+    },
+    "details": { "label": "Input file(s)",
+      "showArgument": false
+    },
+    "semantics": {
+      "maxCardinality": -1
+    }}
+    ]
+}
